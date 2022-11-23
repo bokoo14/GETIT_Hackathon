@@ -1,12 +1,10 @@
 import "./App.css";
 import styled from "styled-components";
 import { css } from "styled-components";
-<<<<<<< HEAD
 import WriteButton from "./components/ui/WriteButton";
 import TagButton from "./components/ui/TagButton";
-=======
 import NotificationList from "./components/list/Notificationlist";
->>>>>>> 박재민
+
 
 const Div = styled.div`
   overflow: hidden;
