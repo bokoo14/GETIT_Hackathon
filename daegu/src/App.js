@@ -1,6 +1,8 @@
 import "./App.css";
 import styled from "styled-components";
 import { css } from "styled-components";
+import WriteButton from "./components/ui/WriteButton";
+import TagButton from "./components/ui/TagButton";
 
 const Div = styled.div`
   overflow: hidden;
@@ -157,7 +159,7 @@ function Main(props) {
               <Separator></Separator>
               <Link href="#MyBlog">My Blog</Link>
               <Separator></Separator>
-              <Link href="#Write">Write</Link>
+              <Link href="#Write">Community</Link>
               <Separator></Separator>
               <Link href="#LogIn">Log In</Link>
               <Separator></Separator>
@@ -184,7 +186,11 @@ function Main(props) {
           </Three>
         </List>
         <List className="list">
-          <Four id="Write">write</Four>
+          <Four id="Community">
+            <WriteButton title="글쓰기" onClick/>
+            <br/><br/>
+            <TagButton title="#안녕" onClick/>
+            write</Four>
         </List>
         <List className="list">
           <Five id="LogIn">login</Five>
