@@ -5,6 +5,7 @@ import WriteButton from "./components/ui/WriteButton";
 import TagButton from "./components/ui/TagButton";
 import NotificationList from "./components/list/Notificationlist";
 import CommunityPage from "./components/page/CommunityPage";
+import CommunityList from "./components/list/CommunityList";
 
 const Div = styled.div`
   overflow: hidden;

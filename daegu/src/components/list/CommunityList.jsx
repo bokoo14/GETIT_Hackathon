@@ -1,6 +1,6 @@
 import React from "react";
 import CommunityListItem from "./CommunityListItem";
-import data from "./CommunityList.json";
+import data from "./communityData.json"
 
 
 var timer;
