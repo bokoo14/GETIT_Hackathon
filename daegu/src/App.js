@@ -194,8 +194,8 @@ function Main(props) {
         <List className="list">
           <Four id="Community">
             <WriteButton id="WriteButton" title="글쓰기" onClick/>
-            <br/><br/>
             <TagButton title="#안녕" onClick/>
+            <CommunityList/>
           </Four>
         </List>
         <List className="list">
