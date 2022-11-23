@@ -4,7 +4,7 @@ import { css } from "styled-components";
 import WriteButton from "./components/ui/WriteButton";
 import TagButton from "./components/ui/TagButton";
 import NotificationList from "./components/list/Notificationlist";
-
+import CommunityPage from "./components/page/CommunityPage";
 
 const Div = styled.div`
   overflow: hidden;
@@ -189,7 +189,7 @@ function Main(props) {
           </Three>
         </List>
         <List className="list">
-          <Four id="Community">
+          <Four id="MyBlog">
             <WriteButton title="글쓰기" onClick/>
             <br/><br/>
             <TagButton title="#안녕" onClick/>
