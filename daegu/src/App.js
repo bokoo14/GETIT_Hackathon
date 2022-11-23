@@ -1,13 +1,17 @@
 import "./App.css";
 import styled from "styled-components";
 import { css } from "styled-components";
+<<<<<<< HEAD
 import WriteButton from "./components/ui/WriteButton";
 import TagButton from "./components/ui/TagButton";
+=======
+import NotificationList from "./components/list/Notificationlist";
+>>>>>>> 박재민
 
 const Div = styled.div`
   overflow: hidden;
   font-family: "Roboto Slab", serif;
-  background-color: #bbdefb;
+  background-color: #F5EDDD;
 `;
 
 const WelcomeDiv = styled.div`
@@ -141,7 +145,8 @@ const Logo = styled.h3`
   font-family: "Hallym";
   font-weight: bold;
 `;
-const Header = styled.div``;
+const Header = styled.div`
+`;
 
 function Main(props) {
   return (
@@ -182,7 +187,7 @@ function Main(props) {
         </List>
         <List className="list">
           <Three id="MyBlog">
-            <ThreeDiv>my blog</ThreeDiv>
+            <ThreeDiv><NotificationList /></ThreeDiv>
           </Three>
         </List>
         <List className="list">
