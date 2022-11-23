@@ -185,15 +185,18 @@ function Main(props) {
         </List>
         <List className="list">
           <Three id="MyBlog">
-            <ThreeDiv><NotificationList /></ThreeDiv>
+            <ThreeDiv>
+              <WriteButton id="WriteButton" title="글쓰기" onClick/>
+              <NotificationList />
+            </ThreeDiv>
           </Three>
         </List>
         <List className="list">
           <Four id="Community">
-            <WriteButton title="글쓰기" onClick/>
+            <WriteButton id="WriteButton" title="글쓰기" onClick/>
             <br/><br/>
             <TagButton title="#안녕" onClick/>
-            write</Four>
+          </Four>
         </List>
         <List className="list">
           <Five id="LogIn">login</Five>
