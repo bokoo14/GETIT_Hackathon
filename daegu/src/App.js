@@ -1,6 +1,8 @@
 import "./App.css";
 import styled from "styled-components";
 import { css } from "styled-components";
+import Blog from "../src/components/Blog";
+import Feed from "../src/components/feed";
 
 const Div = styled.div`
   overflow: hidden;
@@ -141,31 +143,30 @@ const Logo = styled.h3`
 `;
 const Header = styled.div``;
 
+
 function Main(props) {
   return (
     <Div>
       <Container>
         <Header>
           <Logo>
-            <b>대구 어때</b>
+            <b>Petformation</b>
           </Logo>
           <Menu>
             <Ul>
-              <Link href="#Home">Home</Link>
+              <Link href="#Pet 정보">Pet 정보</Link>
               <Separator></Separator>
-              <Link href="#Search">Search</Link>
+              <Link href="#Pet 커뮤니티">Pet 커뮤니티</Link>
               <Separator></Separator>
-              <Link href="#MyBlog">My Blog</Link>
+              <Link href="#전문가 매칭">전문가 매칭</Link>
               <Separator></Separator>
-              <Link href="#Write">Write</Link>
-              <Separator></Separator>
-              <Link href="#LogIn">Log In</Link>
+              <Link href="#상품">상품</Link>
               <Separator></Separator>
             </Ul>
           </Menu>
         </Header>
         <List className="list">
-          <One id="Home">
+          <One id="Pet 정보">
             <WelcomeDiv>
               <Welcome>
                 대구의 다양한 장소들을 알아보세요!
@@ -176,18 +177,15 @@ function Main(props) {
           </One>
         </List>
         <List className="list">
-          <Two id="Search">search page</Two>
+          <Two id="Pet 커뮤니티"><Blog/></Two>
         </List>
         <List className="list">
-          <Three id="MyBlog">
-            <ThreeDiv>my blog</ThreeDiv>
+          <Three id="전문가 매칭">
+            <ThreeDiv>전문가 매칭</ThreeDiv>
           </Three>
         </List>
         <List className="list">
-          <Four id="Write">write</Four>
-        </List>
-        <List className="list">
-          <Five id="LogIn">login</Five>
+          <Four id="상품"><Feed/></Four>
         </List>
       </Container>
     </Div>
