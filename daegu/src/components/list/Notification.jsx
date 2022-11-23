@@ -2,7 +2,6 @@ import React from "react";
 import image from "./imageage.png"
 const styles = {
     wrapper:{
-        
         width : 1200,
         height: 150,
         margin: 20,
