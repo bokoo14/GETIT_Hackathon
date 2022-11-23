@@ -35,7 +35,7 @@ const ThreeDiv = styled.div`
   padding: 2rem 4rem;
   margin-left: 3.8em;
   width: 100%;
-  height: 360px;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -162,7 +162,7 @@ function Main(props) {
               <Separator></Separator>
               <Link href="#MyBlog">My Blog</Link>
               <Separator></Separator>
-              <Link href="#Write">Community</Link>
+              <Link href="#Community">Community</Link>
               <Separator></Separator>
               <Link href="#LogIn">Log In</Link>
               <Separator></Separator>
@@ -189,7 +189,7 @@ function Main(props) {
           </Three>
         </List>
         <List className="list">
-          <Four id="MyBlog">
+          <Four id="Community">
             <WriteButton title="글쓰기" onClick/>
             <br/><br/>
             <TagButton title="#안녕" onClick/>
