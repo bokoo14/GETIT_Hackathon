@@ -161,7 +161,7 @@ function Main(props) {
               <Separator></Separator>
               <Link href="#MyBlog">My Blog</Link>
               <Separator></Separator>
-              <Link href="#Write">Community</Link>
+              <Link href="#Community">Community</Link>
               <Separator></Separator>
               <Link href="#LogIn">Log In</Link>
               <Separator></Separator>
