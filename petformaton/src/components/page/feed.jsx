@@ -1,6 +1,10 @@
 import React, {Component} from "react";
 import styled from "styled-components";
 
+const Layout=styled.div`
+margin-left:300px
+`
+
 const ImgPet = styled.img`
 width: 240px;
 height: 246px;
@@ -8,7 +12,7 @@ left: 1089px;
 top: 239px;
 object-fit: cover;
 border-radius: 10px;
-`;
+`
 
 const TablePet = styled.table`
 width: 240px;
@@ -64,15 +68,30 @@ text-align: center;
 color: #000000;
 `
 
+const Td_bord = styled.td`
+width: 150px;
+height: 30px;
+left: 904px;
+top: 129px;
+
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: bolder;
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+color: #000000;
+`
+
 class feed extends Component{
 
     render(){
 
         return (
-            <>
+            <Layout>
                 <TablePetTop className="table">
                     <tr>
-                        <Td>사료</Td>
+                        <Td_bord>사료</Td_bord>
                         <Td>간식</Td>
                         <Td>애완용품</Td>
                         <Td>애견옷</Td>
@@ -101,7 +120,7 @@ class feed extends Component{
                         <Td2>개별스틱 참치 조갯살 믹스 츄르 20개입 간식 고양이</Td2>
                     </tr>
                 </TablePet>
-            </>
+            </Layout>
         )
     }
 }

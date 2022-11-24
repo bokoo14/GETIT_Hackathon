@@ -48,6 +48,21 @@ text-align: center;
 color: #000000;
 `
 
+const Td_bord = styled.td`
+width: 150px;
+height: 30px;
+left: 904px;
+top: 129px;
+
+font-family: 'Noto Sans KR';
+font-style: normal;
+font-weight: bolder;
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+color: #000000;
+`
+
 class Blog extends Component{
 
     render(){
@@ -56,7 +71,7 @@ class Blog extends Component{
             <>
                 <TablePetTop className="table">
                     <tr>
-                        <Td>추천</Td>
+                        <Td_bord>추천</Td_bord>
                         <Td>강아지 연구소</Td>
                         <Td>고양이 연구소</Td>
                         <Td>뉴스/브랜드</Td>
