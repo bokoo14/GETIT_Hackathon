@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 const StyledWriteButton = styled.button`
-margin: 0;
+margin: 0px 0px 0px 300px;
 border: 1px solid #B1B69A;
 cursor: pointer;
 font-family: "Noto Sans KR", sans-serif;

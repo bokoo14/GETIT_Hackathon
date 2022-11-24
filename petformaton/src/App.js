@@ -7,6 +7,7 @@ import Blog from "./components/page/Blog";
 import Feed from "./components/page/feed";
 import CommunityList from "./components/list/CommunityList";
 import NotificationList from "./components/list/Notificationlist";
+import WriteButton from "./components/ui/WriteButton";
 //전체
 const Div = styled.div`
   // overflow: hidden;
@@ -142,7 +143,10 @@ const One = styled.div`
   // margin-bottom: 35%;
 `;
 
-const Two = styled.div``;
+const Two = styled.div`
+  margin-left : 20%;
+
+`;
 
 const Three = styled.div``;
 
@@ -184,6 +188,7 @@ function Main(props) {
         </List>
         <List className="list">
           <Three id="Community">
+            <WriteButton title = {"글쓰기"}/>
             <ThreeDiv><NotificationList /></ThreeDiv>
           </Three>
         </List>

@@ -17,17 +17,20 @@ const styles = {
         color: "black",
         fontSize: 20,
         marginBottom : 10,
+        fontFamily: "Noto Sans KR"
     },
     img:{
         display : "block",
-        border: "1px solid grey",
-        borderRadius: 16,
+        borderRadius: 40,
         padding : 20,
+        margin : 4,
         margin : 4,
     },
     messageText:{
         color: "black",
         fontSize: 16,
+        fontFamily: "Noto Sans KR",
+        marginRight : 10,
     },
     layouts:{
         flexDirection: "column",
@@ -37,7 +40,7 @@ const styles = {
         display : "block",
         padding:20,
         marginRight : 20,
-        
+        margin : 10,
     }
 };
 
