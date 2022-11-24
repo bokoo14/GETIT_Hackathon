@@ -42,9 +42,13 @@ Binary Three
 기존 빈집을 단순히 사고 파는 거래를 하는 것이 아닌, 구직자들과 빈집을 연결시켜주어 시민들에게 재능을 펼칠 수 있는 장을 만들어 줌과 동시에 도시에 장기간 방치된 빈집을 문화의 요새로 탈바꿈 시킬 수 있는 기회를 중개하는 플랫폼이라는 점에서 차별성을 가지고 있다. 
 
 ### 잘못된 지식 현황 및 주제 선정 이유
-<img src="https://user-images.githubusercontent.com/97583162/192130294-1b92d729-b318-4aa4-810e-e1305f883567.png" width="500" height="300">
-[]https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=guri4you&logNo=220931258105
-이런 빈 집을 활용하여 구직자들과 빈집을 연결해줌으로써 빈집문제도 해결 가능할 뿐만 아니라, 대구시의 일자리부족 문제도 해결가능하다.
+<img width="260" alt="말려야지" src="https://user-images.githubusercontent.com/97583162/203814913-a12da398-f514-4404-bfdd-224e1733c54b.png">  
+[세상에 나쁜 개는 없다]  
+[잘못 알고 있는 반려동물 상식과 지식] https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=guri4you&logNo=220931258105  
+[예쁘다고 입양됐다 하루 만에 파양 .. 호기심 천국 웰시코기] https://www.hankookilbo.com/News/Read/A2022030614230002724  
+[말려야지! 뭐하는거야! ... 강형욱, 반려견 다툼 방치 무책임 견주들에 분노 폭발] https://entertain.naver.com/read?oid=117&aid=0003403378  
+
+
 
 ### 유사사례
 비마이펫  
