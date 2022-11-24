@@ -6,6 +6,8 @@ import TagButton from "./components/ui/TagButton";
 import NotificationList from "./components/list/Notificationlist";
 import CommunityPage from "./components/page/CommunityPage";
 import CommunityList from "./components/list/CommunityList";
+import Blog from "./components/page/Blog";
+import Feed from "./components/page/feed";
 
 const Div = styled.div`
   overflow: hidden;
@@ -78,6 +80,37 @@ const Link = styled.a`
     transform: none;
   }
 `;
+
+const LLink = styled.a`
+  display: block;
+  margin: 0px 20px 50px 20px;
+  padding: 8xp 20px;
+  border-radius: 4px;
+  color: black;
+  text-decoration: none;
+  font-size: 2em;
+
+  ${(p) =>
+    p.active &&
+    css`
+      color: #ff8906;
+      font-weight: bold;
+    `}
+
+  &:hover {
+    background: white;
+    color: gray;
+    transform: translateY(-2px);
+    transition: 1s;
+  }
+
+  &:not([href]) {
+    color: #a7a9be;
+    background: revert;
+    transform: none;
+  }
+`;
+
 const Separator = styled.hr`
   margin: 0;
   padding: 0;
@@ -116,6 +149,12 @@ const Menu = styled.nav`
   height: 80px;
   width: 240px;
 `;
+const Zero = styled.div`
+  /* background-size: cover;
+    text-align: center;
+    padding-top: 180px;
+    padding-bottom: 130px; */
+`;
 
 const One = styled.div`
   /* background-size: cover;
@@ -147,60 +186,47 @@ const Logo = styled.h3`
 const Header = styled.div`
 `;
 
+
 function Main(props) {
   return (
     <Div>
       <Container>
         <Header>
-          <Logo>
-            <b>대구 어때</b>
-          </Logo>
           <Menu>
+            <LLink href="#Petformation">Petformation</LLink>
+            <Separator></Separator>
             <Ul>
-              <Link href="#Home">Home</Link>
+              <Link href="#Pet 정보">Pet 정보</Link>
               <Separator></Separator>
-              <Link href="#Search">Search</Link>
+              <Link href="#Pet 커뮤니티">Pet 커뮤니티</Link>
               <Separator></Separator>
-              <Link href="#MyBlog">My Blog</Link>
+              <Link href="#전문가 매칭">전문가 매칭</Link>
               <Separator></Separator>
-              <Link href="#Community">Community</Link>
-              <Separator></Separator>
-              <Link href="#LogIn">Log In</Link>
+              <Link href="#상품">상품</Link>
               <Separator></Separator>
             </Ul>
           </Menu>
         </Header>
         <List className="list">
-          <One id="Home">
-            <WelcomeDiv>
-              <Welcome>
-                대구의 다양한 장소들을 알아보세요!
-                <br></br>
-                나만 알기 아쉬운 장소를 공유해주세요!
-              </Welcome>
-            </WelcomeDiv>
+          <Zero id="Petformation">
+            <Welcome></Welcome>
+          </Zero>
+        </List>
+        <List className="list">
+          <One id="Pet 정보">
+            <Blog/>
           </One>
         </List>
         <List className="list">
-          <Two id="Search">search page</Two>
+          <Two id="Pet 커뮤니티"><NotificationList /></Two>
         </List>
         <List className="list">
-          <Three id="MyBlog">
-            <ThreeDiv>
-              <WriteButton id="WriteButton" title="글쓰기" onClick/>
-              <NotificationList />
-            </ThreeDiv>
+          <Three id="전문가 매칭">
+            <ThreeDiv><CommunityList/></ThreeDiv>
           </Three>
         </List>
         <List className="list">
-          <Four id="Community">
-            <WriteButton id="WriteButton" title="글쓰기" onClick/>
-            <TagButton title="#안녕" onClick/>
-            <CommunityList/>
-          </Four>
-        </List>
-        <List className="list">
-          <Five id="LogIn">login</Five>
+          <Four id="상품"><Feed/></Four>
         </List>
       </Container>
     </Div>
