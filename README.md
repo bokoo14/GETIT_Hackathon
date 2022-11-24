@@ -66,7 +66,8 @@ Binary Three
 ### 프로젝트에 활용된 기술
 프론트엔드(js, css, html), 프레임워크(리액트) <br>
 <img src="https://user-images.githubusercontent.com/97583162/192095962-06466637-c594-414e-9085-7833b386f863.png" width="120" height="80">
-
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=black">
+<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=black">
 --------------------------------------------------------
 ## 시연 연상
 * 유튜브 링크
