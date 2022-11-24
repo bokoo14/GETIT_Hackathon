@@ -188,8 +188,8 @@ function Main(props) {
         </List>
         <List className="list">
           <Three id="Community">
-            <WriteButton title = {"글쓰기"}/>
-            <ThreeDiv><NotificationList /></ThreeDiv>
+            
+            <ThreeDiv><WriteButton title = {"글쓰기"}/><NotificationList /></ThreeDiv>
           </Three>
         </List>
         <List className="list">
