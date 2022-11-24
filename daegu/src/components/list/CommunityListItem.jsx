@@ -32,7 +32,7 @@ const styles = {
     columnlayout:{
         flexDirection: "column",
     },
-    tage:{
+    tag:{
         fontSize: 16,
     },
 };
@@ -49,16 +49,15 @@ class CommunityListItem extends React.Component{
             <div style={styles.wrapper}>
                 <img style ={styles.img} alt="noImage" src={this.props.image} />
                 <div style={styles.layouts}>
-                    <div style={styles.name}>
-                        {this.props.name}
+                    <div style={styles.Name}>
+                        {this.props.Name}
                     </div>
                     <div style={styles.messageText}>
-                        {this.props.message}
+                        {this.props.Message}
                     </div>
-                    <br></br>
                     {this.props.tag.map((Tag)=>{
                         return(
-                        <TagButton title={Tag.tag} onClick={()=>{}} style={styles.tage}/>
+                        <TagButton title={Tag.tag} onClick={()=>{}} style={styles.tag}/>
                         )
                     })}
                 </div>
