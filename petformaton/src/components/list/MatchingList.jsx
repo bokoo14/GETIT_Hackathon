@@ -1,5 +1,5 @@
 import React from "react";
-import CommunityListItem from "./CommunityListItem";
+import MatchingListItem from "./MatchingListItem";
 import TagButton from "../ui/TagButton";
 import data from "../Data/communityData.json";
 import tagData from "../Data/tagData.json";
@@ -49,24 +49,24 @@ const styles ={
 var timer;
 var timer1;
 
-class CommunityList extends React.Component{
+class MatchingList extends React.Component{
     constructor(props){
         super(props);
 
         this.state = {
-            communityListItem:[],
+            matchingListItem:[],
             tagListItem:[],
         };
     }
 
     componentDidMount(){
-        const {communityListItem,tagListItem} = this.state;
+        const {matchingListItem,tagListItem} = this.state;
         timer= setInterval(()=>{
-            if(communityListItem.length<data.length){
-                const index = communityListItem.length;
-                communityListItem.push(data[index]);
+            if(matchingListItem.length<data.length){
+                const index = matchingListItem.length;
+                matchingListItem.push(data[index]);
                 this.setState({
-                    communityListItem:communityListItem,
+                    matchingListItem:matchingListItem,
                 })
             }
             else{
@@ -100,9 +100,9 @@ class CommunityList extends React.Component{
                     })}
                 </div>
                 <div>
-                    {this.state.communityListItem.map((Item)=>{
+                    {this.state.matchingListItem.map((Item)=>{
                         return (
-                            <CommunityListItem
+                            <MatchingListItem
                                 id = {Item.Id}
                                 name = {Item.Name}
                                 image = {Item.Image}
@@ -116,4 +116,4 @@ class CommunityList extends React.Component{
     }
 }
 
-export default CommunityList;
+export default MatchingList;

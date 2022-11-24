@@ -3,34 +3,17 @@ import React from "react";
 import TagButton from "../ui/TagButton";
 import WriteButton from "../ui/WriteButton";
 
-// const wrapper=styled.div`
-//     width: 905px;
-//     height: 181px;
-//     left: 433px;
-//     top: 405px;
-//     flexDirection: "row";
-//     border: "1px solid grey";
-//     borderRadius: 16;
-//     backgroundColor : "white";
-//     text-align:center;
-    
-// `
-
-
 const styles = {
     wrapper:{
         width : 930,
         height: 150,
         margin: 20,
         display: "flex",
-        // marginRight:"10px",
         marginLeft:200,
         flexDirection: "row",
         border: "2px solid grey",
         borderRadius: 16,
         backgroundColor : "white",
-        // textAlign: 'center',
-        // justifyContent: 'center'
     },
     name:{
         color: "black",
@@ -60,14 +43,14 @@ const styles = {
     button:{
         display: 'inline-block',
         marginTop : 45,
-        marginRight :5,
+        marginRight :3,
         float : 'center',
         textAlign : 'center'
     }
 };
 
 
-class CommunityListItem extends React.Component{
+class MatchingListItem extends React.Component{
     constructor(props){
         super(props);
         this.state = {};
@@ -94,11 +77,11 @@ class CommunityListItem extends React.Component{
                     </div>
                 </div>
                 <div style={styles.button}>
-                    <WriteButton title="상담 신청하기" onClick={()=>{}}/>
+                    <WriteButton title="상담신청" onClick={()=>{}}/>
                 </div>
             </div>
         )
     }
 }
 
-export default CommunityListItem;
+export default MatchingListItem;

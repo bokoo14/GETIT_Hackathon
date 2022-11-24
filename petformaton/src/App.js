@@ -5,9 +5,8 @@ import Home from "./components/Home";
 import Logo from "./images/Logo.png";
 import Blog from "./components/page/Blog";
 import Feed from "./components/page/feed";
-import CommunityList from "./components/list/CommunityList";
+import MatchingList from "./components/list/MatchingList";
 import NotificationList from "./components/list/Notificationlist";
-import WriteButton from "./components/ui/WriteButton";
 //전체
 const Div = styled.div`
   // overflow: hidden;
@@ -188,11 +187,11 @@ function Main(props) {
         </List>
         <List className="list">
           <Three id="Community">
-            <ThreeDiv><WriteButton title = {"글쓰기"}/><NotificationList /></ThreeDiv>
+            <NotificationList />
           </Three>
         </List>
         <List className="list">
-          <Four id="Matching"><CommunityList /></Four>
+          <Four id="Matching">< MatchingList/></Four>
         </List>
         <List className="list">
           <Five id="Items"><Feed /></Five>

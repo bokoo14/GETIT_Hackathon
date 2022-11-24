@@ -3,15 +3,14 @@ import Image from "./imageage.png"
 const styles = {
     wrapper:{
         width : 930,
-        height: 130,
+        height: 150,
         margin: 20,
         display: "flex",
+        marginLeft: 200,
         flexDirection: "row",
-        border: "1px solid grey",
+        border: "2px solid grey",
         borderRadius: 16,
         backgroundColor : "white",
-        
-    
     },
     Title:{
         color: "black",
@@ -24,7 +23,6 @@ const styles = {
         borderRadius: 40,
         padding : 20,
         margin : 4,
-        margin : 4,
     },
     messageText:{
         color: "black",
@@ -33,8 +31,9 @@ const styles = {
         marginRight : 10,
     },
     layouts:{
+        width:600,
         flexDirection: "column",
-        
+        padding:20,
     },
     ImageH:{
         display : "block",
@@ -55,10 +54,11 @@ class Notification extends React.Component{
         return(
             <div style={styles.wrapper}>
                 <img style ={styles.img} alt="noImage" src={this.props.image} />
-                <div style={styles.layouts}>
+                <div align="left" style={styles.layouts}>
                     <div style={styles.Title}>
                         {this.props.title}
                     </div>
+                    <hr/>
                     <div style={styles.messageText}>
                         {this.props.message}
                     </div>

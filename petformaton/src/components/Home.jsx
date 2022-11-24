@@ -5,6 +5,11 @@ import Logo from "../images/Logo.png";
 import one from "../images/1.png";
 import two from "../images/2.png";
 
+const styles = {
+  wrapper_main:{
+      marginLeft:30
+  }
+}
 const Div = styled.div`
   width: 100%;
   //height: 100%;
@@ -77,7 +82,7 @@ function Home(props) {
         사랑스러운 애완동물을 위한 서비스
         <img src={pet} width="8%" height="8%" />
         <br />
-        <img src={Logo} width="40%" height="40%" />
+        <img src={Logo} width="40%" height="40%"/>
         <br />
       </Div>
       <DivImg>
