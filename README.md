@@ -76,25 +76,8 @@ Binary Three
 <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=black">
 --------------------------------------------------------
 ## 시연 연상
-* 유튜브 링크
-[링크]
-
-- Time Stamp<br>
-00:00 대구애(愛) - IN THE DEAGU 플랫폼 소개<br>
-00:48 주제설명<br>
-00:58 프로젝트 목적<br>
-01:21 플랫폼 용도<br>
-01:42 기대효과<br>
-02:15 기존과의 차별점<br>
-02:34 웹사이트 소개<br>
-03:06 프로젝트 설명<br>
-03:25 빈집보기<br>
-03:46 빈집 신청하기<br>
-04:01 공지사항<br>
-04:20 회원가입<br>
-<br><br>
-
-
+* 유튜브 링크<br>
+https://youtu.be/plnHKFP2zDo
 
 
 - 웹사이트<br>
