@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 const StyledTagButton = styled.button`
-margin: 0;
+margin: 4px, 4px, 4px, 4px;
 border: 1px solid #DEE5DB;
 cursor: pointer;
 font-family: "Noto Sans KR", sans-serif;

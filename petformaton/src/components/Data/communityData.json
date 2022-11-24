@@ -3,7 +3,7 @@
         "Id": 1,
         "Name": "박재민",
         "Image": "https://cdn-icons-png.flaticon.com/512/1389/1389770.png",
-        "Message": "OO대학교 수의대학 석사학위 취득 OO동물 병원 12년 경력",
+        "Message": "OO대학교 수의대학 석사학위 취득                           OO동물 병원 12년 경력",
         "Tag" : [
             {
                 "tag" : "#고양이"
@@ -20,7 +20,7 @@
         "Id":2,
         "Name": "박보경",
         "Image": "https://cdn-icons-png.flaticon.com/512/1389/1389770.png",
-        "Message": "OO대학교 수의대학 석사학위 취득 OO애견 카페 운영",
+        "Message": "OO대학교 수의대학 석사학위 취득                           OO애견 카페 운영",
         "Tag" : [
             {
                 "tag" : "#강아지"
@@ -40,7 +40,7 @@
         "Id": 3,
         "Name": "장시온",
         "Image": "https://cdn-icons-png.flaticon.com/512/1389/1389770.png",
-        "Message": "OO대학원 박사학위 취득 OO이색동물 카페 운영",
+        "Message": "OO대학원 박사학위 취득                                 OO이색동물 카페 운영",
         "Tag" : [
             {
                 "tag" : "#이색반려동물"
