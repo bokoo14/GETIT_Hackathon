@@ -10,7 +10,6 @@ Binary Three
 동물에 관심있는 모든 사람들을 위한 정보 제공, 커뮤니티 및 전문가 상담 서비스  
 
 ## 프로젝트에 대한 설명 (주제, 목적, 용도, 영향 등)
-
 ### 목적
 - 반려동물에 대한 지식이 부족한 사람들에게 입양 전 꼭 알아야 할 정보를 제공함
 - 반려인들의 잘못된 정보를 바로잡을 수 있고, 새로운 정보들을 제공함
@@ -39,15 +38,19 @@ Binary Three
 
 
 ### 기존과의 차별점
-기존 빈집을 단순히 사고 파는 거래를 하는 것이 아닌, 구직자들과 빈집을 연결시켜주어 시민들에게 재능을 펼칠 수 있는 장을 만들어 줌과 동시에 도시에 장기간 방치된 빈집을 문화의 요새로 탈바꿈 시킬 수 있는 기회를 중개하는 플랫폼이라는 점에서 차별성을 가지고 있다. 
+기존 검증되지 않거나, 관련 자격증을 가지지 않은 모든 이용자가 질의응답을 받는 것이 아닌, 자격을 가지고 있는 해당 분야의 전문가가 직접 상담을 해준다는 차별성을 가지고 있다.  
 
-### 잘못된 지식 현황 및 주제 선정 이유
-<img width="260" alt="말려야지" src="https://user-images.githubusercontent.com/97583162/203814913-a12da398-f514-4404-bfdd-224e1733c54b.png">  
+
+
+### 현황 및 주제 선정 이유
+<img width="300" alt="말려야지" src="https://user-images.githubusercontent.com/97583162/203814913-a12da398-f514-4404-bfdd-224e1733c54b.png">  
 [세상에 나쁜 개는 없다]  
 [잘못 알고 있는 반려동물 상식과 지식] https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=guri4you&logNo=220931258105  
 [예쁘다고 입양됐다 하루 만에 파양 .. 호기심 천국 웰시코기] https://www.hankookilbo.com/News/Read/A2022030614230002724  
 [말려야지! 뭐하는거야! ... 강형욱, 반려견 다툼 방치 무책임 견주들에 분노 폭발] https://entertain.naver.com/read?oid=117&aid=0003403378  
-
+웰시코기 사례를 통해 예비 반려인들의 지식의 심각성을 알 수 있음
+"세상에 나쁜 개는 없다"TV프로그램을 통해 반려인들의 잘못된 양육 방식 현황을 통해 전문적인 정보 전달의 중요성을 인지하여 주제를 선정함 
+바쁜 현대인들 혹은 진료 비용이 부담되는 반려인들을 위해 빠르게 접근할 수 있는 웹 사이트를 제공하여 상담 서비스를 제공함
 
 
 ### 유사사례
@@ -56,20 +59,8 @@ Binary Three
 
 
 ### 참고
-- 도시재생뉴딜사업<br>
-[web site] (https://www.city.go.kr/portal/policyInfo/urban/contents04/link.do)<br>
-[web site] (https://www.korea.kr/special/policyCurationView.do?newsId=148863980)
-- 개별건출물 데이터를 활용한 대구광역시 빈집 발생의 공간적 분포 및 발생요인 분석<br>
-(https://scienceon.kisti.re.kr/srch/selectPORSrchArticle.do?cn=JAKO201819352297601&dbt=NART)<br>
-- 도시재생 선도지역의 사업내용 및 기대효과 유형 분류 및 분석 -근린재생형 도시재생 선도지역 마중물 사업을 대상으로 Classification and Analysis of the Project Contents and Expected Effects of Urban Regeneration Pilot Projects <br>
-(https://scienceon.kisti.re.kr/srch/selectPORSrchArticle.do?cn=JAKO201834663385866)
 
-### 대구시 빈집 database 활용방안
-공공데이터 제공요청을 받아 대구광역시 관내 빈집 주소, 형태 등 통계 현황을 담고 있는 오픈 API를 활용해 실시간 빈집 정보를 수집하여 웹사이트와 연결<br>
-오픈 API 제공요청 - 10일이상 소요 예정으로 오픈 API를 받아오지 못했음<br>
-(https://www.data.go.kr/index.do)
-(https://www.data.go.kr/tcs/dor/insertDataOfferReqstProcssView.do)
-(https://www.data.go.kr/data/15041696/fileData.do)
+
 
 
 ### 프로젝트에 활용된 기술
@@ -79,7 +70,7 @@ Binary Three
 --------------------------------------------------------
 ## 시연 연상
 * 유튜브 링크
-https://www.youtube.com/watch?v=mdmWYMltqec
+[링크]
 
 - Time Stamp<br>
 00:00 대구애(愛) - IN THE DEAGU 플랫폼 소개<br>
@@ -97,8 +88,8 @@ https://www.youtube.com/watch?v=mdmWYMltqec
 <br><br>
 
 - Git Hub<br>
-https://github.com/bokoo14/SW-hackathon
+
 <br><br>
 
 - 웹사이트<br>
-https://momm88.github.io/IN_THE_DEAGU/<br>
+[웹사이트 동적 호스팅하면 더 좋을듯?]
