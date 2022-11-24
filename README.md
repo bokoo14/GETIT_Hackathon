@@ -95,3 +95,7 @@ Binary Three
 
 - 웹사이트<br>
 [웹사이트 동적 호스팅하면 더 좋을듯?]
+
+- 노션 
+https://www.notion.so/GET-IT-2022-42ed4746d01f47b89a3930bbfeaf4aad
+
