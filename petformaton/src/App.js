@@ -3,7 +3,10 @@ import styled from "styled-components";
 import { css } from "styled-components";
 import Home from "./components/Home";
 import Logo from "./images/Logo.png";
-
+import Blog from "./components/page/Blog";
+import Feed from "./components/page/feed";
+import CommunityList from "./components/list/CommunityList";
+import NotificationList from "./components/list/Notificationlist";
 //전체
 const Div = styled.div`
   // overflow: hidden;
@@ -177,18 +180,18 @@ function Main(props) {
           </One>
         </List>
         <List className="list">
-          <Two id="PetInfo">Pet Info</Two>
+          <Two id="PetInfo"><Blog /></Two>
         </List>
         <List className="list">
           <Three id="Community">
-            <ThreeDiv>Community</ThreeDiv>
+            <ThreeDiv><NotificationList /></ThreeDiv>
           </Three>
         </List>
         <List className="list">
-          <Four id="Matching">Matching</Four>
+          <Four id="Matching"><CommunityList /></Four>
         </List>
         <List className="list">
-          <Five id="Items">Items</Five>
+          <Five id="Items"><Feed /></Five>
         </List>
       </Container>
     </Div>
