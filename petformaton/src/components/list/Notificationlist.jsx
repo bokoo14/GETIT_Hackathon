@@ -1,6 +1,6 @@
 import React from "react";
 import Notification from "./Notification";
-import data from "./data.json";
+import data from "../Data/data.json";
 
 
 var timer;
