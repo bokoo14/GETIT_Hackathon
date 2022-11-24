@@ -1,7 +1,7 @@
 import "./App.css";
 import styled from "styled-components";
 import { css } from "styled-components";
-import Blog from "../src/components/Blog";
+import Blog from "./components/page/Blog";
 import Feed from "../src/components/feed";
 
 const Div = styled.div`
@@ -167,13 +167,7 @@ function Main(props) {
         </Header>
         <List className="list">
           <One id="Pet 정보">
-            <WelcomeDiv>
-              <Welcome>
-                대구의 다양한 장소들을 알아보세요!
-                <br></br>
-                나만 알기 아쉬운 장소를 공유해주세요!
-              </Welcome>
-            </WelcomeDiv>
+            <Blog/>
           </One>
         </List>
         <List className="list">
