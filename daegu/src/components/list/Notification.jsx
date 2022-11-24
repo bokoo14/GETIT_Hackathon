@@ -2,8 +2,8 @@ import React from "react";
 
 const styles = {
     wrapper:{
-        width : 1200,
-        height: 150,
+        width : 930,
+        height: 130,
         margin: 20,
         display: "flex",
         flexDirection: "row",
@@ -27,7 +27,7 @@ const styles = {
         color: "black",
         fontSize: 16,
     },
-    columnlayout:{
+    layouts:{
         flexDirection: "column",
     },
 };
@@ -41,14 +41,16 @@ class Notification extends React.Component{
 
     render(){
         return(
-            <div style={styles.wrapper}>
-                <img style ={styles.img} alt="noImage" src={this.props.image} />
-                <div style={styles.layouts}>
-                    <div style={styles.Title}>
-                        {this.props.title}
-                    </div>
-                    <div style={styles.messageText}>
-                        {this.props.message}
+            <div style={styles.Biglayout}>
+                <div style={styles.wrapper}>
+                    <img style ={styles.img} alt="noImage" src={this.props.image} />
+                    <div style={styles.layouts}>
+                        <div style={styles.Title}>
+                            {this.props.title}
+                        </div>
+                        <div style={styles.messageText}>
+                            {this.props.message}
+                        </div>
                     </div>
                 </div>
             </div>
@@ -56,4 +58,4 @@ class Notification extends React.Component{
     }
 }
 
-export default Notification
+export default Notification;
