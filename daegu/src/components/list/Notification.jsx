@@ -1,5 +1,5 @@
 import React from "react";
-
+import Image from "./imageage.png"
 const styles = {
     wrapper:{
         width : 930,
@@ -10,6 +10,7 @@ const styles = {
         border: "1px solid grey",
         borderRadius: 16,
         backgroundColor : "white",
+        
     
     },
     Title:{
@@ -29,7 +30,13 @@ const styles = {
     },
     layouts:{
         flexDirection: "column",
+        
     },
+    ImageH:{
+        display : "block",
+        padding : 20,
+        margin : 4,
+    }
 };
 
 
@@ -41,18 +48,17 @@ class Notification extends React.Component{
 
     render(){
         return(
-            <div style={styles.Biglayout}>
-                <div style={styles.wrapper}>
-                    <img style ={styles.img} alt="noImage" src={this.props.image} />
-                    <div style={styles.layouts}>
-                        <div style={styles.Title}>
-                            {this.props.title}
-                        </div>
-                        <div style={styles.messageText}>
-                            {this.props.message}
-                        </div>
+            <div style={styles.wrapper}>
+                <img style ={styles.img} alt="noImage" src={this.props.image} />
+                <div style={styles.layouts}>
+                    <div style={styles.Title}>
+                        {this.props.title}
+                    </div>
+                    <div style={styles.messageText}>
+                        {this.props.message}
                     </div>
                 </div>
+                <img style ={styles.ImageH} alt ="NoImage" src={Image} />
             </div>
         )
     }
