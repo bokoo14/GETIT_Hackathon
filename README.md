@@ -63,8 +63,9 @@ Binary Three
 
 
 ### 참고
-
-
+[잘못 알고 있는 반려동물 상식과 지식] https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=guri4you&logNo=220931258105  
+[예쁘다고 입양됐다 하루 만에 파양 .. 호기심 천국 웰시코기] https://www.hankookilbo.com/News/Read/A2022030614230002724  
+[말려야지! 뭐하는거야! ... 강형욱, 반려견 다툼 방치 무책임 견주들에 분노 폭발] https://entertain.naver.com/read?oid=117&aid=0003403378  
 
 
 ### 프로젝트에 활용된 기술
@@ -93,12 +94,11 @@ Binary Three
 04:20 회원가입<br>
 <br><br>
 
-- Git Hub<br>
 
-<br><br>
+
 
 - 웹사이트<br>
-[웹사이트 동적 호스팅하면 더 좋을듯?]
+
 
 - 노션   
 https://www.notion.so/GET-IT-2022-42ed4746d01f47b89a3930bbfeaf4aad
