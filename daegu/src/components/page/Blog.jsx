@@ -65,9 +65,9 @@ class Blog extends Component{
 
                 <TablePet>
                     <tr className="tr">
-                        <td><ImgPet src={ require('../DogImage/pic1.png') }/></td>
-                        <td><ImgPet src={ require('../DogImage/pic2.png') }/></td>
-                        <td><ImgPet src={ require('../DogImage/pic3.png') }/></td>
+                        <td><ImgPet src={ require('../../DogImage/pic1.png') }/></td>
+                        <td><ImgPet src={ require('../../DogImage/pic2.png') }/></td>
+                        <td><ImgPet src={ require('../../DogImage/pic3.png') }/></td>
                     </tr>
                     <tr className="tr">
                         <Td>수달</Td>
@@ -75,9 +75,9 @@ class Blog extends Component{
                         <Td>리트리버</Td>
                     </tr>
                     <tr className="tr">
-                        <td><ImgPet src={ require('../DogImage/pic4.png') }/></td>
-                        <td><ImgPet src={ require('../DogImage/pic5.png') }/></td>
-                        <td><ImgPet src={ require('../DogImage/pic6.png') }/></td>
+                        <td><ImgPet src={ require('../../DogImage/pic4.png') }/></td>
+                        <td><ImgPet src={ require('../../DogImage/pic5.png') }/></td>
+                        <td><ImgPet src={ require('../../DogImage/pic6.png') }/></td>
                     </tr>
                     <tr className="tr">
                         <Td>고양이</Td>

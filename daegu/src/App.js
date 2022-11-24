@@ -2,7 +2,7 @@ import "./App.css";
 import styled from "styled-components";
 import { css } from "styled-components";
 import Blog from "./components/page/Blog";
-import Feed from "../src/components/feed";
+import Feed from "./components/page/feed";
 
 const Div = styled.div`
   overflow: hidden;
@@ -75,6 +75,37 @@ const Link = styled.a`
     transform: none;
   }
 `;
+
+const LLink = styled.a`
+  display: block;
+  margin: 0px 20px 50px 20px;
+  padding: 8xp 20px;
+  border-radius: 4px;
+  color: black;
+  text-decoration: none;
+  font-size: 2em;
+
+  ${(p) =>
+    p.active &&
+    css`
+      color: #ff8906;
+      font-weight: bold;
+    `}
+
+  &:hover {
+    background: white;
+    color: gray;
+    transform: translateY(-2px);
+    transition: 1s;
+  }
+
+  &:not([href]) {
+    color: #a7a9be;
+    background: revert;
+    transform: none;
+  }
+`;
+
 const Separator = styled.hr`
   margin: 0;
   padding: 0;
@@ -113,6 +144,12 @@ const Menu = styled.nav`
   height: 80px;
   width: 240px;
 `;
+const Zero = styled.div`
+  /* background-size: cover;
+    text-align: center;
+    padding-top: 180px;
+    padding-bottom: 130px; */
+`;
 
 const One = styled.div`
   /* background-size: cover;
@@ -149,10 +186,8 @@ function Main(props) {
     <Div>
       <Container>
         <Header>
-          <Logo>
-            <b>Petformation</b>
-          </Logo>
           <Menu>
+            <LLink href="#Petformation">Petformation</LLink>
             <Ul>
               <Link href="#Pet 정보">Pet 정보</Link>
               <Separator></Separator>
@@ -166,12 +201,17 @@ function Main(props) {
           </Menu>
         </Header>
         <List className="list">
+          <Zero id="Petformation">
+            <Blog/>
+          </Zero>
+        </List>
+        <List className="list">
           <One id="Pet 정보">
             <Blog/>
           </One>
         </List>
         <List className="list">
-          <Two id="Pet 커뮤니티"><Blog/></Two>
+          <Two id="Pet 커뮤니티"></Two>
         </List>
         <List className="list">
           <Three id="전문가 매칭">

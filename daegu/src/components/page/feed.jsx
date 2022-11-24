@@ -81,9 +81,9 @@ class feed extends Component{
 
                 <TablePet>
                     <tr className="tr">
-                        <td><ImgPet src={ require('../FeedImage/feed0.png') }/></td>
-                        <td><ImgPet src={ require('../FeedImage/feed1.png') }/></td>
-                        <td><ImgPet src={ require('../FeedImage/feed2.png') }/></td>
+                        <td><ImgPet src={ require('../../FeedImage/feed0.png') }/></td>
+                        <td><ImgPet src={ require('../../FeedImage/feed1.png') }/></td>
+                        <td><ImgPet src={ require('../../FeedImage/feed2.png') }/></td>
                     </tr>
                     <tr className="tr">
                         <Td2>로얄캐닌 사료 미니 인도어 어덜트 8.7kg</Td2>
@@ -91,9 +91,9 @@ class feed extends Component{
                         <Td2>[사료보관통 증정] 로얄캐닌 사료 미니 인도어 퍼피 3KG</Td2>
                     </tr>
                     <tr className="tr">
-                        <td><ImgPet src={ require('../FeedImage/feed3.png') }/></td>
-                        <td><ImgPet src={ require('../FeedImage/feed4.png') }/></td>
-                        <td><ImgPet src={ require('../FeedImage/feed5.png') }/></td>
+                        <td><ImgPet src={ require('../../FeedImage/feed3.png') }/></td>
+                        <td><ImgPet src={ require('../../FeedImage/feed4.png') }/></td>
+                        <td><ImgPet src={ require('../../FeedImage/feed5.png') }/></td>
                     </tr>
                     <tr className="tr">
                         <Td2>도그랑 어널트 진도골드 간식 사료</Td2>
