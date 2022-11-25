@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/GETIT_Hackathon/static/css/main.931e89de.css",
+    "main.js": "/GETIT_Hackathon/static/js/main.4c66e06e.js",
+    "static/media/1.png": "/GETIT_Hackathon/static/media/1.f00f76e8f6bb516dc04d.png",
+    "static/media/2.png": "/GETIT_Hackathon/static/media/2.ce19568a8027198b3ad5.png",
+    "static/media/pic1.png": "/GETIT_Hackathon/static/media/pic1.6b8176f3ecdef5ac00eb.png",
+    "static/media/pic3.png": "/GETIT_Hackathon/static/media/pic3.b11f754d37025dcbeb0b.png",
+    "static/media/pic6.png": "/GETIT_Hackathon/static/media/pic6.258eafa7d56bce2fd37b.png",
+    "static/media/pic4.png": "/GETIT_Hackathon/static/media/pic4.ce7da39d409c77937a6f.png",
+    "static/media/feed5.png": "/GETIT_Hackathon/static/media/feed5.c792f9c2386d19dfb50b.png",
+    "static/media/feed0.png": "/GETIT_Hackathon/static/media/feed0.d83e9295f0212b4dfe8f.png",
+    "static/media/pic2.png": "/GETIT_Hackathon/static/media/pic2.cf4b6cf40ff04404ebe3.png",
+    "static/media/feed2.png": "/GETIT_Hackathon/static/media/feed2.71f8dd994401ac93a88f.png",
+    "static/media/feed1.png": "/GETIT_Hackathon/static/media/feed1.7db5d0b50cca124dac1f.png",
+    "static/media/feed4.png": "/GETIT_Hackathon/static/media/feed4.370093aca7e3417183bf.png",
+    "static/media/feed3.png": "/GETIT_Hackathon/static/media/feed3.255e2d5a88401ae8c9c2.png",
+    "static/media/pic5.png": "/GETIT_Hackathon/static/media/pic5.9d2346b325d6135b3246.png",
+    "static/media/Logo.png": "/GETIT_Hackathon/static/media/Logo.368580abfed28c62c3e9.png",
+    "static/media/pet.png": "/GETIT_Hackathon/static/media/pet.38d8d3ef0d0f3eb6eec6.png",
+    "index.html": "/GETIT_Hackathon/index.html",
+    "main.931e89de.css.map": "/GETIT_Hackathon/static/css/main.931e89de.css.map",
+    "main.4c66e06e.js.map": "/GETIT_Hackathon/static/js/main.4c66e06e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.931e89de.css",
+    "static/js/main.4c66e06e.js"
+  ]
+}
